@@ -164,6 +164,7 @@ def node2vecWalk(self, u):
 
 def learning_features(self):
     # r次抽样 每次都要产生n个长度为l的游走序列 r * n * l
+    # test
     g = self.G
     walks = []
     nodes = list(g.nodes())
