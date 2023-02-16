@@ -1,7 +1,9 @@
 import random
 
 import numpy as np
-# 总结： 1. 建立别名表 2. 两次抽样 （均匀抽和二项抽）
+
+# @author: Chris 2023/02/14
+# 总结： 1. 别名表 2. 两次投掷
 # 1. Get PDF Table
 prob_num = 4
 transform_prob = []
